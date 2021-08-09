@@ -1,0 +1,41 @@
+*{
+    border:solid
+}
+
+.header{
+    background-color:cyan ;
+    display:flex ;
+    justify-content:space-between
+
+}
+.group{
+    background-color: cyan;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between
+}
+
+body{
+    background-color:#808080;
+}
+
+.item{
+    position:relative;
+}
+
+.item p{
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+a:visited{
+    color:red;
+}
+
+h1{
+    color: red;
+    margin: 25px;
+}
